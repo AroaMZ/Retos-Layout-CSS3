@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    margin: 10px 10px 0px 10px;
+    align-items: center;
+
+}
+
+a {
+    margin: 15px;
+    display: flex;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+.menu1 {
+    border-radius: 100%;
+}
+
+.menu1:hover {
+    background-color: #bdc1c6;
+}
+
+.menu {
+    width: 20px;
+
+}
+
+.menu:hover {
+    box-shadow: #bdc1c6;
+}
+
+.sign {
+    background-color: #3369e8;
+    color: #fff;
+    height: 30px;
+    width: 70px;
+    margin: 15px;
+    border: none;
+}
+
+.sign:hover {
+
+    font-size: 18px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main .titulo h1 {
+    font-size: 80px;
+}
+
+.blue {
+    color: #3369e8;
+}
+
+.red {
+    color: #d50f25;
+}
+
+.yellow {
+    color: #eeb211;
+}
+
+.green {
+    color: #009925;
+}
+
+.busqueda {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.buscar {
+    
+    height: 30px;
+    width: 600px;
+    border-radius: 10px;
+
+
+}
+
+i {
+    position: absolute;
+    /*siempre que hay un absolute tiene que haber un relative? porque lo tenia en la clase de "buscar" pero como no hacia ningun efecto lo he eliminado*/
+    padding: 10px;
+
+}
+
+.botones {
+
+    text-align: center;
+
+}
+
+.boton {
+    margin: 10px;
+    height: 30px;
+    width: 200px;
+    border-radius: 3px;
+    border-color: transparent;
+
+}
+
+.boton:hover {
+    border-color: black;
+    cursor: pointer;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    width: 100%;
+    background: #bdc1c6;
+    ;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+footer a {
+    display: inline-block;
+}

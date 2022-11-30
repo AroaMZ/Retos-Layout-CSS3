@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bing.css">
+    <title>Bing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<!--PREGUNTAS:
+    La sección "articulos" no me parece proporcional, no ajusto bien los textos con las imagenes. Alguna sugerencia?
+    He usado la medida de px, debería de haber usado em?-->
+<body>
+    <div class="contenedor">
+        <header>
+            <nav class="izq">
+                <div class="icono">
+                    <img src="microsoft.png" alt="microsoft">
+                </div>
+                <div class="nombre">
+                    <p>Microsoft Bing</p>
+                </div>
+                <a href="#">Imagenes</a>
+                <a href="#">Videos</a>
+                <a href="#">Mapas</a>
+                <i class="fa-solid fa-ellipsis"></i>
+
+
+            </nav>
+            <nav class="dercha">
+                <a href="#">Videos</a>
+                <a href="#">Mapas</a>
+
+                <a href="#" class="user">Iniciar sesión<div class="user1"> <i class="fa-regular fa-user"></i></div></a>
+
+
+                <a href="#" class="trofeo">rewards<div class="trofeo1"><i class="fa-solid fa-trophy"></i></div></a>
+
+
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+
+        </header>
+        <div class="mainBuscar">
+            <div class="busqueda">
+
+                <input type="text" class="buscar" required>
+
+                <div class="iconos">
+                    <i class="fa-solid fa-microphone"></i>
+                    <i class="fa-solid fa-camera-retro"></i>
+                    <i class="fa-regular fa-keyboard"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </div>
+        <section class="noticias">
+            <button type="button" class="flecha"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                    <path
+                        d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+                </svg>
+            </button>
+
+            <div class="noticia1">
+                <div class="titulo">Una jueza se harta tras la 'cacería' de Podemos manipulando sus palabras
+                </div>
+
+                <div class="foto"><img src="noticia1.jpg"></div>
+            </div>
+
+            <div class="noticia1">
+                <div class="titulo">Monedero muestra el pasado de Yolanda Díaz para desacreditarla contra Iglesias</div>
+                <div class="foto"><img src="noticia2.jpg"></div>
+            </div>
+
+            <div class="noticia1">
+                <div class="titulo">Monedero habla en estos términos sobre Errejón con Rufián: a algunos les parece una
+                    barbaridad</div>
+                <div class="foto"><img src="noticia3.jpg"></div>
+            </div>
+
+            <div class="noticia1">
+                <div class="titulo">El repaso de Dolors Montserrat a Irene Montero y a Sánchez por su gran chapuza</div>
+                <div class="foto"><img src="noticia4.jpg"></div>
+            </div>
+
+            <div class="noticia1">
+                <div class="titulo">Podemos se abre ahora a revisar con sus socios mejoras concretas a la ley Montero
+                </div>
+                <div class="foto"><img src="noticia5.jpg"></div>
+            </div>
+
+            <div class="noticia1">
+                <div class="titulo">Page apuesta por penalizar la convocatoria de referéndum ilegal en Cataluña en el
+                    medio plazo</div>
+                <div class="foto"><img src="noticia6.jpg"></div>
+            </div>
+
+            <button type="button" class="flecha"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                    <path
+                        d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+                </svg>
+            </button>
+
+        </section>
+
+        <section class="articulos"> 
+            <div class="periodicos1">
+
+                <div class="periodico">
+                    <div class="simbolo">
+                        <img src="elPais.png" alt="el Pais">
+                    </div>
+                    <div class="enunciado">
+                        <a href="#">La FIFA consigue con amenazas que los capitanes no lleven el brazalete arcoíris en
+                            Qatar</a>
+                        <p>el Pais - 1 hora</p>
+                    </div>
+                </div>
+
+                <div class="periodico">
+                    <div class="simbolo">
+                        <img src="elEspanol.png" alt="el Pais">
+                    </div>
+                    <div class="enunciado">
+                        <a href="#">El Gobierno expedientará a los organizadores de la marcha en homenaje a Franco en
+                            Madrid</a>
+                        <p>El Espanol - 4 horas</p>
+                    </div>
+                </div>
+
+                <div class="periodico">
+                    <div class="simbolo">
+                        <img src="elHuffpost.png" alt="el Pais">
+                    </div>
+                    <div class="enunciado">
+                        <a href="#">El supermercado 'low cost' en España que gana día a día cada vez más clientes</a>
+                        <p>El Huffpost - 3 horas</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="periodicos2">
+                <div class="periodico">
+                    <div class="simbolo">
+                        <img src="elMundo.png" alt="el Pais">
+                    </div>
+                    <div class="enunciado">
+                        <a href="#">Guerra Ucrania - Rusia, última hora | La agencia estatal rusa de energía nuclear
+                            advierte de
+                            un posible "accidente nuclear" en Zaporiyia</a>
+                        <p>El Mundo - 7 Horas</p>
+                    </div>
+                </div>
+
+                <div class="periodico">
+                    <div class="simbolo">
+                        <img src="laVanguardia.png" alt="el Pais">
+                    </div>
+                    <div class="enunciado">
+                        <a href="#">“Pedí un préstamo al banco para comprar bitcoins y ha sido la peor inversión de mi
+                            vida”</a>
+                        <p>La Vanguardia - 2 Horas</p>
+
+                    </div>
+                </div>
+
+                <div class="periodico">
+                    <div class="simbolo">
+                        <img src="elPais.png" alt="el Pais">
+                    </div>
+                    <div class="enunciado">
+                        <a href="#">Una banda de magrebies atropella en Murcia a un motorista para robarle</a>
+                        <p>El Espanol - 1 Hora</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="tiempo">
+                <img src="Tiempo.png" alt="el tiempo">
+            </div>
+            <div class="mapa">
+                <img src="mapa.png" alt="mapa">
+            </div>
+
+        </section>
+
+    </div>
+
+</body>
+
+</html>
